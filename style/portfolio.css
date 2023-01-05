@@ -55,6 +55,25 @@ nav li {
     background-image: linear-gradient(to right, #FD6E0A, rgb(255, 212, 93));
 
 }
+.btn-p{
+    color:#FD6E0A;
+    font-size: 20px;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 20px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFF8F3;
+    transition: all 0.38s ease;
+
+}
+.btn-p:hover{
+    background-image: linear-gradient(to bottom right, rgb(255, 41, 41), rgb(255, 255, 100));
+    color: #FFFFFF;
+    border: 1px solid rgb(0, 60, 255);
+
+}
 
 /* banner style */
 .banner {
@@ -257,8 +276,8 @@ footer {
     /* margin-right: 30px; */
 }
 
-.footer-title,
-img {
+
+.imgs {
     padding: 10px;
 }
 
